@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Rust build
+src-tauri/target/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Build output
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.local.json
+
+# Project-specific
+ruby-diamond/
+
+# Temp / misc
+static/
+templates/
+sys
+typer
+
+# API keys — don't commit secrets
+openclaude/
+.openclaude/
